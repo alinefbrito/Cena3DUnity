@@ -22,6 +22,7 @@ public class IntanciaPrefab : MonoBehaviour
 
             position.Set(x, y, z);
             Instantiate(myPrefab, position, Quaternion.identity);
+            //Quaternion.identity --> Define que o elemento não sofrerá rotação ao ser instanciado
         }
     }
 
